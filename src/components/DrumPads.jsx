@@ -1,6 +1,15 @@
 
-
 import DrumPad from "./DrumPad"
+
+import closedHat from '../sounds/closed-hat.wav'
+import flam from '../sounds/flam.wav'
+import kick from '../sounds/kick.wav'
+import openHat from '../sounds/open-hat.wav'
+import pdHat from '../sounds/pd-hat.wav'
+import rim from '../sounds/rim.wav'
+import sdst from '../sounds/sdst.wav'
+import snr from '../sounds/snr.wav'
+import snroff from '../sounds/snroff.wav'
 
 const DrumPads = ({setDisplay}) => {
 
@@ -9,55 +18,55 @@ const DrumPads = ({setDisplay}) => {
       keyCode: 81,
       keyTrigger: 'Q',
       id: 'closed-hat',
-      url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3'
+      url: closedHat
     },
     {
       keyCode: 87,
       keyTrigger: 'W',
       id: 'flam',
-      url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3'
+      url: flam
     },
     {
       keyCode: 69,
       keyTrigger: 'E',
       id: 'kick',
-      url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3'
+      url: kick
     },
     {
       keyCode: 65,
       keyTrigger: 'A',
       id: 'open-hat',
-      url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3'
+      url: openHat
     },
     {
       keyCode: 83,
       keyTrigger: 'S',
       id: 'pd-hat',
-      url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3'
+      url: pdHat
     },
     {
       keyCode: 68,
       keyTrigger: 'D',
       id: 'rim',
-      url: 'https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3'
+      url: rim
     },
     {
       keyCode: 90,
       keyTrigger: 'Z',
       id: 'sdst',
-      url: 'https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3'
+      url: sdst
     },
     {
       keyCode: 88,
       keyTrigger: 'X',
       id: 'snr',
-      url: 'https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3'
+      url: snr
     },
     {
       keyCode: 67,
       keyTrigger: 'C',
       id: 'snroff',
-      url: 'https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3'
+      url: snroff
     },
   ]
   
