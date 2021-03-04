@@ -80,7 +80,7 @@ const DrumPads = ({setDisplay}) => {
   )  
 
   return (
-    <div>
+    <div className='drum-pads'>
       {makeDrumPads}
     </div>
   )

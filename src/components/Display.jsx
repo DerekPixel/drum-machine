@@ -2,7 +2,7 @@
 const Display = ({text}) => {
   return (
     <div id='display'>
-      {text}
+      Last played: {text}
     </div>
   )
 }
